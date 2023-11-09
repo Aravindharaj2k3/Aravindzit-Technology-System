@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LoginPage</title>
+    </head>
+    <style>
+    body{
+        background-image: url(https://img.freepik.com/premium-photo/businessman-scan-fingerprint-biometric-identity-approval-login-user-information-security-secure-access-user-s-personal-information-secure-internet-access-cyber-security-business-concept_34683-2067.jpg?size=626&ext=jpg&ga=GA1.1.1648643685.1692953875&semt=ais);
+        background-position: center;
+        background-size: cover;
+        backdrop-filter: blur(7px);
+    }
+    body img{
+        margin-left: 25px;
+        margin-top: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 6px black;
+    }
+    header {
+        margin-left: 25px;
+        margin-top: auto;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-align: left;
+        color: white;
+        text-shadow: 1px 3px 5px black;
+    }
+    span{
+        color: red;
+    }
+    
+    .form {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 35%;
+        backdrop-filter: blur(8px);
+        margin-bottom: 40px;
+        margin-right: 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 5px 10px 15px black;
+        text-align: left;
+        width: 35%;
+        line-height: 50px;
+        backdrop-filter: blur(5px);
+        position: relative;
+        background-position: center;
+    }
+    
+    .form:hover {
+    
+        background-color:rgb(14, 66, 66);
+    }
+    
+    .form label {
+        color: white;
+        padding-right: 10px 20px;
+        font-size: x-large;
+    }
+    
+    .form input {
+        margin-left: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    
+    .form a {
+        color: white;
+    }
+    
+    .form h2 {
+        text-align: center;
+    }
+    
+    .form button {
+        margin-left: 60px;
+        width: 70%;
+        padding: 10px 15px;
+        margin-left: 20px;
+        border-radius: 7px;
+        font-size: smaller;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+    }
+    
+    button:hover {
+        background-color: darkgreen;
+    }
+    
+    .forg {
+        margin-left: 20px;
+        font-size: larger;
+    }
+    
+    .forg a:hover {
+        color: red;
+    }
+    .sig a:hover{
+        color: rgb(22, 185, 22);
+        
+    }
+    .social li{
+        list-style-type: none;
+    }
+    .social ul li a{
+        text-decoration: none;
+        line-height: 50px;
+        border-radius: 10px;
+        border: 1px solid black;
+        padding: 5px 115px;
+    }
+    .goo{
+        padding-left: 10px;
+    }
+    .goo a:hover{
+        background-color: blue;
+    }
+    .face{
+        padding-left: 8px;
+    }
+    .face a:hover{
+        background-color: rgb(4, 117, 161);
+    }
+    p{
+        font-size: x-large;
+    }
+    .form p afo{
+        color: black;
+    }
+    
+</style>
+    <body>
+        <header>
+            <h1>AravindzIT<span>Technology</span></h1>
+        </header>
+        <div class="img">
+            <img src="https://img.freepik.com/premium-vector/golden-letter-symbol-black-background-icon-4_95164-5533.jpg?size=626&ext=jpg&ga=GA1.1.1648643685.1692953875&semt=ais" width="11%" height="13%"><br>
+        </div>
+        <form action="home.html">
+            <div class="form">
+                <h2>LOGIN HERE</h2>
+                <ol>
+                    <div class="id">
+                        <span class="icon"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMlJREFUSEvdldENwjAMRF83oZvAJjAJMAlsAqN0E9BVMbIiwE2aglT/RrmL7+xLx8LVLYzPugi2wAXYzJRtAA7AXTheohsgkhYlkj4neLRAdhjj430HfyE4A9ck3bHQn0kd+A73aQhMhXcj7lUICV5GJcTmBMI1iTS6pSMcdiACdWFVuh8hgV5/ygi0K54o92GyB9pETU9eJpUtZDXBtxCUFzI8qlCiCCA6/z1By7BTku7yLJJxioO5ifoxriNNq87X9WVWSRBdegKpHScZ2YbAqwAAAABJRU5ErkJggg==" /></span>
+                        <label>Employe ID</label><br />
+                    </div>
+
+                    <input type="email" placeholder="Employe ID" required><br />
+                    <div class="pass">
+                        <span class="icon"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANJJREFUSEvtlcsNwjAQRCedQCdQCVAJUAl0QjqBTkBPsiUiNhnbKMolviSS7Xn79XaaeXUz66sUsJN0kMSX9ZJ0ldQ7A0sAR0m3ESEglymIA2DxIwkgdk//QPFoI2mbPAo5DoA4kMhSLD8n6GnMCwd4p4vROax/JuvxosmDKQCCbt9WkRNw+8sASCrJyzXvSj3v0xM/vRElj8SRwJYFZP99MQLkuLYAuDPQXAFRGNcQ2eJaPkT/NBqTbvCyRn3AE8EEq+3m4qfCBrnmgBs4NVrh2Q8N/CgZn8yl9gAAAABJRU5ErkJggg==" /></span>
+                        <label>Password</label><br />
+                    </div>
+                    <input type="password" placeholder="Password" required><br />
+                    <label><input type="checkbox">Remember me</label><br />
+                    <button type="submit" class="btn">Click here</button>
+                    <div class="forg">
+                        <a href="Forget.html">Forget password</a><br />
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <div class="goo">
+                                <li><a href="https://www.google.com/">Google</a></li>
+                            </div>
+                            <div class="face">
+                                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="sig">
+                        <p>Don't have an account?..<a href="Register.html"
+                                class="register-link">New signup!..</a>
+                        </p>
+                    </div>
+                </ol>
+            </div>
+        </form>
+
+    </body>
+</html>
